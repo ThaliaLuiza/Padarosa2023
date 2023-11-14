@@ -73,6 +73,26 @@ namespace Padarosa2023.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alexander_andrews_eNoeWZkO7Zc_unsplash__1_ {
+            get {
+                object obj = ResourceManager.GetObject("alexander-andrews-eNoeWZkO7Zc-unsplash (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Custom_Icon_Design_Flatastic_1_Delete_1_48 {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Icon-Design-Flatastic-1-Delete-1.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jeremy_perkins_uhjiu8FjnsQ_unsplash {
             get {
                 object obj = ResourceManager.GetObject("jeremy-perkins-uhjiu8FjnsQ-unsplash", resourceCulture);

@@ -30,16 +30,16 @@
         {
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
-            this.lblAcessoRestrito = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.lblLogin = new System.Windows.Forms.Label();
+            this.txbEmail = new System.Windows.Forms.TextBox();
+            this.txbSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(113, 79);
+            this.lblEmail.Location = new System.Drawing.Point(67, 79);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(35, 13);
             this.lblEmail.TabIndex = 0;
@@ -48,55 +48,57 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(103, 105);
+            this.lblSenha.Location = new System.Drawing.Point(61, 102);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(41, 13);
             this.lblSenha.TabIndex = 1;
             this.lblSenha.Text = "Senha:";
             // 
-            // lblAcessoRestrito
+            // lblLogin
             // 
-            this.lblAcessoRestrito.AutoSize = true;
-            this.lblAcessoRestrito.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcessoRestrito.Location = new System.Drawing.Point(146, 26);
-            this.lblAcessoRestrito.Name = "lblAcessoRestrito";
-            this.lblAcessoRestrito.Size = new System.Drawing.Size(136, 22);
-            this.lblAcessoRestrito.TabIndex = 2;
-            this.lblAcessoRestrito.Text = "Acesso Restrito";
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.Location = new System.Drawing.Point(155, 25);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(56, 22);
+            this.lblLogin.TabIndex = 2;
+            this.lblLogin.Text = "Login";
+            this.lblLogin.Click += new System.EventHandler(this.lblLogin_Click);
             // 
-            // txtEmail
+            // txbEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(150, 76);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(171, 20);
-            this.txtEmail.TabIndex = 3;
+            this.txbEmail.Location = new System.Drawing.Point(106, 76);
+            this.txbEmail.Name = "txbEmail";
+            this.txbEmail.Size = new System.Drawing.Size(171, 20);
+            this.txbEmail.TabIndex = 3;
             // 
-            // txtSenha
+            // txbSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(150, 102);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.PasswordChar = '•';
-            this.txtSenha.Size = new System.Drawing.Size(171, 20);
-            this.txtSenha.TabIndex = 4;
+            this.txbSenha.Location = new System.Drawing.Point(106, 102);
+            this.txbSenha.Name = "txbSenha";
+            this.txbSenha.PasswordChar = '•';
+            this.txbSenha.Size = new System.Drawing.Size(171, 20);
+            this.txbSenha.TabIndex = 4;
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(159, 140);
+            this.btnEntrar.Location = new System.Drawing.Point(116, 139);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(142, 35);
             this.btnEntrar.TabIndex = 5;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 258);
+            this.ClientSize = new System.Drawing.Size(390, 258);
             this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.lblAcessoRestrito);
+            this.Controls.Add(this.txbSenha);
+            this.Controls.Add(this.txbEmail);
+            this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblEmail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -113,9 +115,9 @@
 
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Label lblAcessoRestrito;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.Label lblLogin;
+        private System.Windows.Forms.TextBox txbEmail;
+        private System.Windows.Forms.TextBox txbSenha;
         private System.Windows.Forms.Button btnEntrar;
     }
 }

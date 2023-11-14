@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Padarosa2023.Properties.Resources.jeremy_perkins_uhjiu8FjnsQ_unsplash;
+            this.BackgroundImage = global::Padarosa2023.Properties.Resources.alexander_andrews_eNoeWZkO7Zc_unsplash__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(758, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
